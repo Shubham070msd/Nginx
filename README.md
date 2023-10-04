@@ -16,13 +16,13 @@
           <p>sudo apt install nginx</p> 
 
 - Step 2: Verify the installation
-	        <p>nginx -v</p>
+	  <p>nginx -v</p>
  
 - Step 3: Chexking the status of Nginx
-	        <p>systemctl status nginx</p>
+	  <p>systemctl status nginx</p>
  
 - Step 4: Launching the Nginx Service
-	        <p>sudo systemctl start nginx</p>
+	  <p>sudo systemctl start nginx</p>
  
 - Step 5: To start Nginx when system starts
           <p>sudo systemctl enable nginx</p>
@@ -31,6 +31,6 @@
           <p>sudo systemctl stop nginx</p>
  
 - Step 7: To restart Nginx
-	        <p>sudo systemctl restart nginx</p>
+	  <p>sudo systemctl restart nginx</p>
  
 - Step 8: To check if nginx is running we can copy the public ip address and paste it in any web browser and we will get a simple web page of Nginx.
